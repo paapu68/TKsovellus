@@ -1,0 +1,39 @@
+heroku ja github:
+
+https://devcenter.heroku.com/articles/git#tracking-your-app-in-git
+-----------------------------------------
+web2py herokussa:
+
+http://web2py.com/books/default/chapter/29/13/deployment-recipes#anyserver-py
+google-chrome https://murmuring-ocean-5714.herokuapp.com/
+asenna puuttuva driveri psycopg2 synapticilla
+
+luo:
+https://murmuring-ocean-5714.herokuapp.com/welcome/default/index
+https://murmuring-ocean-5714.herokuapp.com/admin/default/index
+adminstrative indexsalasana kaukonenTK
+valitse 'kurssihallinta' ajaaksesi
+kirjaudu username 'onni' password 'onni'-> oppilaan näkymät
+kirjaudu username 'onerva' password 'onerva'-> opettajan näkymät
+
+tietokannan tutkinta ja hallinta
+https://murmuring-ocean-5714.herokuapp.com/admin/default/site
+kurssihallinta -> manage -> edit -> uusi näkymä
+-> Models -> database administration
+
+
+-----------------------------------------
+mokaukon@users:~$ wanna-postgres
+
+This script can create a local postgres database account and
+empty postgres database for you. Do you want to create a new 
+postgres user mokaukon and database mokaukon now (y/n)? y
+mokaukon
+Creating user and database for login 'mokaukon' (uid 54941)
+New postgres user 'mokaukon' and database 'mokaukon' have been created for you.
+You can connect it directly from command line with command 'psql'.
+
+Postgres password reset to '3584e6c56beb1f9d'.
+Password also saved to file '/home/mokaukon/.psql_password'.
+mokaukon@users:~$ 
+

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Oleo Script Swash Caps';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script Swash Caps'), local('OleoScriptSwashCaps-Regular'), url(http://themes.googleusercontent.com/static/fonts/oleoscriptswashcaps/v2/vdWhGqsBUAP-FF3NOYTe4k1gocJqSnlIwnLPhn4iekk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oleo Script Swash Caps';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oleo Script Swash Caps Bold'), local('OleoScriptSwashCaps-Bold'), url(http://themes.googleusercontent.com/static/fonts/oleoscriptswashcaps/v2/HMO3ftxA9AU5floml9c756HPCue0Y9p7kwQ7JKlwkwk_BNIuymZ_hD58qNx2bu5M.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptsans/v6/LKf8nhXsWg5ybwEGXk8UBQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'), url(http://themes.googleusercontent.com/static/fonts/ptserif/v6/sDRi4fY9bOiJUbgq53yZCfesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

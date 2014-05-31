@@ -1,0 +1,423 @@
+/* Overrides for twbsV3 */
+
+/*
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+    font-weight: bold;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+h1,h2,h3 {
+    line-height: 40px;
+}*/
+
+img {
+    max-width: 100%;
+}
+.label-inverse,
+.badge-inverse {
+    background-color: #333;
+}
+div.img-thumbnail {
+    display: block;
+}
+.container-fluid {
+    padding: 0 20px;
+    width: 100%;
+}
+.container-fluid > .row {
+    max-width: 100%;
+}
+.affix {
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#back-to-top.snippet {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+/* ==========================================================================
+ Author's custom styles
+ ========================================================================== */
+
+body {
+    background: url(../img/darkgrain.png);
+    font-family: 'PT Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+    font-family: 'PT Serif', Georgia, serif;
+}
+::-moz-selection {
+    background: #c12e28;
+    color: #fff;
+}
+::selection {
+    background: #c12e28;
+    color: #fff;
+}
+a,
+.btn-link {
+    color: #CA4242;
+}
+a:hover,
+a:focus,
+.btn-link:hover,
+.btn-link:focus {
+    color: #962A2A;
+}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold {
+    font-weight: bold;
+}
+.inline-block {
+    display: inline;
+    display: inline-block;
+}
+.margin-0 {
+    margin: 0
+}
+.margin-5 {
+    margin: 5px;
+}
+.margin-top-5 {
+    margin-top: 5px;
+}
+.padding-0 {
+    padding: 0px;
+}
+.padding-3 {
+    padding: 3px;
+}
+.line-height-36 {
+    line-height: 36px;
+}
+.border-none {
+    border: none;
+}
+.text {
+    text-align: inherit;
+}
+.line-height-33 {
+    line-height: 33px;
+}
+/* Fixtable layouts: Better for respoonsiveness; Not so good for data-tables*/
+
+.table-layout-fixed {
+    table-layout: fixed;
+}
+.table-layout-fixed td,
+.table-layout-fixed th {
+    word-wrap: break-word;
+    text-align: inherit;
+}
+.img-tiny {
+    max-height: 40px;
+    max-width: 40px;
+    vertical-align: middle;
+}
+.doer-font {
+    font-family: 'Oleo Script Swash Caps', 'Script MT Bold', sans-serif;
+}
+.doer-red,
+.doer-red a {
+    /* color: #ED1C24; */
+    /* color: #DE2C31; */
+    color: #EA1A1A;
+}
+/* Add an underline for all links
+a.doer-font {
+    text-decoration: underline;
+}*/
+
+.header-container {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.content {
+    background-color: #fcfcfc;
+    background-color: rgba(252, 252, 252, 0.75);
+    padding: 5px;
+    margin-bottom: 25px;
+    border: 1px solid #eaeaea;
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.content-well {
+    margin: 20px -5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-right: none;
+    border-left: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.content-well-base {
+    margin-left: -5px;
+    margin-right: -5px;
+    border-right: none;
+    border-left: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+}
+/* Portfolio cards */
+
+.card-wrapper {
+    margin: auto;
+    /* Center the cards*/
+    vertical-align: top;
+    display: block;
+    display: inline-block;
+    max-width: 100%;
+}
+.card-header {
+    text-align: center;
+    border-bottom: 2px solid #EEE;
+    text-overflow: ellipsis;
+}
+.card {
+    border: 1px solid #B3B3B3;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    padding: 8px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0 0 5px #EFEFEF inset;
+    box-shadow: 0 0 5px #EFEFEF inset;
+    display: inline;
+    background: white;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#fefefe));
+    background-image: -webkit-linear-gradient(top, #ffffff, #fefefe);
+    background-image: linear-gradient(top, #ffffff, #fefefe);
+    -webkit-background-size: 200% 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: inline-block;
+    width: 240px;
+    max-width: 90%;
+    margin: 5px;
+    min-height: 320px;
+    word-wrap: break-word;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow 0.5s linear;
+    transition: box-shadow 0.5s linear;
+}
+.card:hover,
+.card:focus,
+.card:active,
+.card.active {
+    -webkit-box-shadow: 0 1px 9px #666;
+    box-shadow: 0 1px 9px #666;
+    z-index: 10;
+    margin-bottom: 10px;
+}
+a.card,
+a.card:hover,
+a.card:active,
+a.card:focus {
+    color: inherit;
+    text-decoration: none;
+}
+.table tbody>tr>td.card-icon {
+    border: none;
+}
+.card .card-icon-wrapper {
+    overflow: hidden;
+    vertical-align: middle;
+    table-layout: fixed;
+}
+.card .card-icon {
+    /* display: none; */
+    padding: 8px 0;
+    background-color: #f5f5f5;
+    background-color: rgba(245, 245, 245, 0.7);
+    background-image: url(../img/darkgrain.png);
+    border: 1px solid #e3e3e3;
+    border: 1px solid rgba(227, 227, 227, 0.5);
+    border-right: none;
+    border-left: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.02);
+    height: 150px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px auto;
+}
+.card .card-icon > img {
+    vertical-align: middle;
+    text-align: center;
+    max-height: 100%;
+}
+/* Comment Cards */
+
+.card-comment-wrapper {
+    padding: 15px 1px;
+    margin: auto;
+    vertical-align: top;
+}
+.card-comment {
+    margin: 10px;
+    width: 240px;
+    max-width: 90%;
+    word-wrap: break-word;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    /*-webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;*/
+}
+.card-comment:hover,
+.card-comment:active,
+.card-comment:focus {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.card-comment a,
+.card-comment a:hover,
+.card-comment a:active,
+.card-comment a:focus {
+    text-decoration: none;
+}
+.popover-static {
+    position: relative;
+    margin: 15px;
+    display: block;
+    display: inline-block;
+    text-align: inherit;
+    z-index: 0;
+}
+.card-comment .popover-static.top {
+    margin: 0px;
+    margin-bottom: 12px;
+    max-width: 100%;
+}
+.card-comment .popover-title {
+    text-overflow: ellipsis;
+}
+.card-comment .popover-content {
+    min-height: 120px;
+}
+.nav-tabs-right > li {
+    float: right;
+}
+/* Sidebar stuff */
+
+.sidenav {
+    width: 228px;
+    margin: 30px 0 0;
+    padding: 0;
+    background-color: #fff;
+}
+.sidenav > li > a {
+    display: block;
+    width: 190px \9;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #e5e5e5;
+}
+.sidenav > .active > a {
+    position: relative;
+    z-index: 2;
+    padding: 9px 15px;
+    border: 0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+.sidenav > li > a:hover {
+    background-color: #f5f5f5;
+}
+.sidenav.affix {
+    top: 90px;
+}
+.sidenav.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 270px;
+}
+/* This parent can be any width and height */
+
+.center-child {
+    text-align: center;
+}
+/* The ghost, nudged to maintain perfect centering */
+
+.center-child:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    /* Adjusts for spacing */
+}
+/* The element to be centered, can
+   also be of any width and height */
+
+.center-child>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+/*--------
+ Responsive
+ -------------------------------------------------- */
+
+/* Desktop large
+ ------------------------- */
+
+@media (min-width: 1200px) {
+    .sidenav {
+        width: 258px;
+    }
+    .sidenav > li > a {
+        width: 230px \9;
+        /* Override the previous IE8-9 hack */
+    }
+}
+/* Desktop
+ ------------------------- */
+
+@media (max-width: 980px) {
+    /* When affixed, space properly */
+    .sidenav {
+        top: 0;
+        width: 218px;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+}
+/* Tablet to desktop
+ ------------------------- */
+
+@media (max-width: 979px) {
+    /* Sidenav */
+    .sidenav {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .sidenav.affix {
+        position: static;
+        width: auto;
+        top: 0;
+    }
+}
