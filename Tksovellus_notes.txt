@@ -1,13 +1,27 @@
+Esittelysivu yliopiston koneelle:
+mka@mka3830TG:~/Dropbox/OpiskeluHY/TKsovellus$ scp esittelysivu.html mokaukon@users.cs.helsinki.fi:
+
+----------------------------------------------------------------
 heroku ja github:
+nyt vain laitettu ~/web2py koko hakemisto githubiin
 
 https://devcenter.heroku.com/articles/git#tracking-your-app-in-git
+
 -----------------------------------------
 web2py herokussa:
+cd ~/web2py
+./scripts/setup-web2py-heroku.sh
 
 http://web2py.com/books/default/chapter/29/13/deployment-recipes#anyserver-py
 google-chrome https://shielded-headland-8075.herokuapp.com/
 asenna puuttuva driveri psycopg2 synapticilla
 -----------------------------------------
+
+github:
+paapu68/TKsovellus
+lokaalisti: mka@mka3830TG:~/Dropbox/OpiskeluHY/TKsovellus
+
+-------------------------------------------
 mokaukon@users:~$ wanna-postgres
 
 This script can create a local postgres database account and
