@@ -1,5 +1,5 @@
 Esittelysivu yliopiston koneelle:
-mka@mka3830TG:~/Dropbox/OpiskeluHY/TKsovellus$ scp esittelysivu.html mokaukon@users.cs.helsinki.fi:
+mka@mka3830TG:~/Dropbox/OpiskeluHY/TKsovellus$ scp esittelysivu.html mokaukon@users.cs.helsinki.fi:htdocs
 
 ----------------------------------------------------------------
 heroku ja github:
