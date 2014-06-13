@@ -1,0 +1,27 @@
+ http://hnygren.users.cs.helsinki.fi/tsoha/esittelysivu.html
+ladattu Tue Jun  3 16:06:13 EEST 2014
+
+kommenttaja:
+
+dokumentaatio linkki puuttuu sivulta 
+http://hnygren.users.cs.helsinki.fi/tsoha/esittelysivu.html
+
+Edit ei toimi (opiskelija)
+create user ei toimi
+
+opettaja pääsi loggaamaan sisään
+mitkään toiminnot eivät vielä toimi, voi selailla näkymiä.
+
+ulkoasu simppeli mutta toimiva
+
+modelien php koodin funktiot ovat lyhyitä ja selkeitä
+samoin viewsin php koodi lyhyttä ja selkeää
+
+ladattu Tue Jun  3 16:06:13 EEST 2014
+----------------------------------------------------
+Palaute: 
+- dokumentaatio hyvä ja selkeä. Etenkin käyttöliittymäkaavio oli valmiin oloinen.
+- demoversiossa pystyi kirjautumaan opettaja ja ylläpitäjänä. En löytänyt opiskelijan kirjautumista. Muuta ei sitten pystynytkään tekemään, mikä lienee ok tässä vaiheessa.
+- php koodi oli lyhyttä ja selkeää
+- php koodiin voisi kirjoittaa enemmän kommentteja, nyt en niitä juurikaan löytänyt
+- eli hyvin näyttää työ olevan aikataulussa, jatka samaan malliin, etenkin dokumentin kuvat olivat mainioita.

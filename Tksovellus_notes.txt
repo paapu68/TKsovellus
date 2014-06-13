@@ -1,3 +1,18 @@
+Puutteita 12.6
+----------------
+vetovalikkojen valikoimaa pitää rajoittaa
+back-nappi sivuille
+opettajalla ohjaa_xxx pitäisi poistaa turhina?
+testit
+Suomennokset!
+Voiko käyttäjät luoda itsentä itse?
+(ylläpitäjä voisi luoda opettajat)
+Dokumentit ajantasalle.
+
+-----------------------------------------------------------------
+
+
+
 Esittelysivu yliopiston koneelle:
 mka@mka3830TG:~/Dropbox/OpiskeluHY/TKsovellus$ scp esittelysivu.html mokaukon@users.cs.helsinki.fi:htdocs
 
@@ -10,6 +25,7 @@ https://devcenter.heroku.com/articles/git#tracking-your-app-in-git
 -----------------------------------------
 web2py herokussa:
 cd ~/web2py
+!!!!!!!!!! BASH !!!!!!!
 ./scripts/setup-web2py-heroku.sh
 
 http://web2py.com/books/default/chapter/29/13/deployment-recipes#anyserver-py

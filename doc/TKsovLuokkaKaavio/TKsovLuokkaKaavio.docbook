@@ -66,6 +66,11 @@
               <para>
       Rolename: 
     (none)</para>
+              <para>public</para>
+              <para/>
+              <para>
+      Rolename: 
+    (none)</para>
             </section>
           </tbody>
         </tgroup>
@@ -114,6 +119,11 @@
               <para>
       Rolename: 
     (none)</para>
+              <para>public</para>
+              <para/>
+              <para>
+      Rolename: 
+    (none)</para>
             </section>
           </tbody>
         </tgroup>
@@ -142,6 +152,16 @@
             <section>
               <title>Associations</title>
               <para>visibility, type, properties.</para>
+              <para>public</para>
+              <para/>
+              <para>
+      Rolename: 
+    (none)</para>
+              <para>public</para>
+              <para/>
+              <para>
+      Rolename: 
+    (none)</para>
               <para>public</para>
               <para/>
               <para>
